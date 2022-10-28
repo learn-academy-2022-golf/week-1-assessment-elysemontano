@@ -7,6 +7,14 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a function that takes in two strings and determines which of the two strings has more characters. Use the two sets of test variables provided.
 
 // Describe your process:
+// Create a function called fruity
+// Setup two parameters - string1, string2
+// Use a conditional that will evaluate the strings
+    // Use length built in method to determine amount of characters in both strings
+    // if fruit1 has more chars 
+      // return fruit1
+    // if fruit2 has more chars
+        // return fruit2
 
 // Set one:
 const fruit1 = "apple"
@@ -17,6 +25,21 @@ const fruit2 = "banana"
 const fruit3 = "cherry"
 const fruit4 = "kiwi"
 // Expected outcome: "cherry"
+
+const fruity = (string1, string2) => {
+  if(string1.length > string2.length) {
+    return string1
+  } else if(string1.length < string2.length) {
+    return string2
+  } else {
+    return "Ooops, something went wrong"
+  }
+}
+
+console.log(fruity(fruit1, fruit2)) // banana
+console.log(fruity(fruit3, fruit4)) // cherry
+
+
 
 // --------------------1) Create a function that takes in a number and determines if the given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
 

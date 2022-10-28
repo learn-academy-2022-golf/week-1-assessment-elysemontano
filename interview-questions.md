@@ -8,9 +8,14 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 INSTRUCTOR EXAMPLE: What is a conditional statement?
 
-Your answer:
+Your answer: I have heard conditional statements can also be called decision trees where you make an evaluation and then provide an outcome based on that evaluation.
 
-Researched answer:
+for ex:
+if(true) {
+  do this
+}
+
+Researched answer:  Conditionals will make decisions based on evaluations. 
 
 1. What is git? What is the difference between git and Github?
 
